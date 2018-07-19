@@ -1,0 +1,17 @@
+@import 'variables';
+
+.chuck-logo {
+  height: 200px;
+  width: 200px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+  z-index: 1200;
+  border-radius: 100%;
+  box-shadow: 0 8px 15px -3px rgba(0,0,0,0.5);
+}
+
+.chuck-logo__img {
+  height: 300px;
+}

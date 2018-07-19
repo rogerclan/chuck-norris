@@ -1,0 +1,53 @@
+@import 'variables';
+
+.chuck-panel {
+  margin: 150px auto;
+  max-width: 800px;
+}
+
+.chuck-btn-bar {
+  text-align: center;
+}
+
+.chuck-btn-bar input, .chuck-btn-bar button  {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.chuck-btn-bar input {
+  border: none;
+  border-bottom: 2px solid $font-color;
+}
+
+.chuck-btn-bar input:focus {
+  outline: none;
+  border-bottom-color: $primary-color;
+}
+
+.chuck-btn-bar button {
+  width: 100px;
+  padding: 8px 10px;
+  border: none;
+}
+
+.chuck__button-next {
+  color: $font-invert-color;
+  background-color: $primary-color;
+}
+
+.chuck__button-next:hover {
+  color: lighten($font-invert-color, 10%);
+  background-color: darken($primary-color, 10%);
+}
+
+
+.chuck__button-go {
+  color: $font-invert-color;
+  background-color: $secondary-color;
+}
+
+.chuck__button-go:hover {
+  color: lighten($font-invert-color, 10%);
+  background-color: darken($secondary-color, 10%);
+}

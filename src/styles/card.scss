@@ -1,0 +1,36 @@
+@import 'variables';
+
+.chuck-card {
+  max-width: 800px;
+  margin-bottom: 50px;
+  padding: 30px 50px;
+  background-color: $shade-color;
+  border-left: lighten($font-color, 50%) 5px solid;
+}
+
+.chuck-card-joke {
+  font-family: 'Merienda', cursive;
+  font-size: 1.2rem;
+  line-height: 2;
+  position: relative;
+}
+
+.chuck-card-joke:before {content: open-quote;
+  left: -30px;
+  top:-45px;
+  color: lighten($font-color, 50%);
+  font-size: 4rem;
+  position: absolute;
+}
+
+.chuck-card-joke:before {
+
+}
+
+
+
+.chuck-card-signature {
+  font-size: 0.8rem;
+  text-align: right;
+  padding-right: 25px;
+}

@@ -1,0 +1,26 @@
+@import 'variables';
+
+.chuck-header {
+  height: 40px;
+  background-color: $font-color;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 0 7px 3px rgba(0,0,0,0.5);
+}
+
+.chuck-header-tag {
+  background: linear-gradient($primary-color, darken($primary-color, 15%));
+  text-align: center;
+  color: #e2e2e2;
+  padding: 20px 35px;
+  width: 200px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 50%;
+  margin-left: -100px;
+  text-shadow: #000 1px 0 5px;
+}
